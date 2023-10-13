@@ -1,0 +1,22 @@
+addi x1, x0, 1
+addi x2, x0, 2
+addi x3, x0, 3
+add x4, x1, x3
+add x5, x3, x2
+addi x6, x10, -4
+addi x7, x0, 255 
+addi x11, x0, 8
+sll x7, x7, x11
+addi x7, x7, 8
+sw x7, 0(x7)
+lw x24, 0(x7)
+
+lb x8, 0(x0)
+lb x9, 1(x0)
+addi x12, x0, 537
+addi x13, x0, 4
+sb x17, 0(x13)
+sb x10, 1(x13)
+sb x16, 2(x13)
+sb x11, 3(x13)
+lw x14, 0(x13)
